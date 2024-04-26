@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Employee Registration Form</title>
+	</head>
+	<body>
+		<marquee><h2>Employee Registration Form</h2></marquee>
+		<form action="ERF.html" method="post" >
+		<table border="2" height="400px" width="100%">
+        <tr>
+            <th colspan="2">Basic Personal Details</th>
+        </tr>
+        <tr>
+            <td>Full Name:</td>
+            <td><input type="text" name="full_name" required></td>
+        </tr>
+        <tr>
+            <td>Gender:</td>
+            <td>
+                <input type="radio" name="gender" value="male" id="male"><label for="male">Male</label>
+                <input type="radio" name="gender" value="female" id="female"><label for="female">Female</label>
+				<input type="radio" name="gender" value="other" id="other"><label for="other">Other</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Date of Birth:</td>
+            <td><input type="date" name="dob" required></td>
+        </tr>
+        <tr>
+            <td>Email Address:</td>
+            <td><input type="email" name="email" required></td>
+        </tr>
+        <tr>
+            <td>Contact Number:</td>
+            <td><input type="tel" name="contact_number" required></td>
+        </tr>
+        <tr>
+            <th colspan="2">Qualification Details</th>
+        </tr>
+        <tr>
+            <td>Degree:</td>
+            <td><input type="text" name="degree"></td>
+        </tr>
+        <tr>
+            <td>Institution:</td>
+            <td><input type="text" name="institution"></td>
+        </tr>
+        <tr>
+            <td>Year of Completion:</td>
+            <td><input type="text" name="completion_year"></td>
+        </tr>
+        <tr>
+            <td>Additional Details:</td>
+            <td><textarea name="qualification_details"></textarea></td>
+        </tr>
+        <tr>
+            <th colspan="2">Address</th>
+        </tr>
+        <tr>
+            <td>Permanent Address:</td>
+            <td><textarea name="permanent_address"></textarea></td>
+        </tr>
+        <tr>
+            <td>Current Address:</td>
+            <td><textarea name="current_address"></textarea></td>
+        </tr>
+        <tr>
+            <th colspan="2">Hobbies</th>
+        </tr>
+        <tr>
+            <td colspan="2"><textarea name="hobbies"></textarea></td>
+        </tr>
+        <tr>
+            <th colspan="2">Experience</th>
+        </tr>
+        <tr>
+            <td>Company Name:</td>
+            <td><input type="text" name="company_name"></td>
+        </tr>
+        <tr>
+            <td>Job Title:</td>
+            <td><input type="text" name="job_title"></td>
+        </tr>
+        <tr>
+            <td>Duration:</td>
+            <td><input type="text" name="duration"></td>
+        </tr>
+        <tr>
+            <td>Responsibilities:</td>
+            <td><textarea name="responsibilities"></textarea></td>
+        </tr>
+        <tr>
+            <th colspan="2">Salary</th>
+        </tr>
+        <tr>
+            <td>Current Salary:</td>
+            <td><input type="text" name="current_salary"></td>
+        </tr>
+        <tr>
+            <td>Expected Salary:</td>
+            <td><input type="text" name="expected_salary"></td>
+        </tr>
+        <tr>
+            <td>Additional Compensation:</td>
+            <td><textarea name="additional_compensation"></textarea></td>
+        </tr>
+        <tr>
+            <th colspan="2">Date of Joining</th>
+        </tr>
+        <tr>
+            <td>Date:</td>
+            <td><input type="date" name="joining_date"></td>
+        </tr>
+        <tr>
+            <th colspan="2">Profile Picture</th>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="file" name="profile_picture"></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center"><input type="submit" value="Submit"></td>
+        </tr>
+    </table>
+		</form>
+	</body>
+</html>
